@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">IRIB Prototype Examples</string>
-    <string name="act__main__btn_simple_request">Simple request demo</string>
-    <string name="act__main__btn_json_request">IRIB Project demo</string>
-    <string name="act__main__btn_gson_request">SharePoint request demo</string>
-    <string name="act__main__btn_image_loading">Image loading</string>
-    <string name="act__simple_request__btn_request">Execute simple request</string>
-    <string name="act__json_request__btn_request">Execute IRIB request</string>
-    <string name="act__gson_request__btn_request">Execute SharePoint request</string>
-    <string name="act__image_loading__btn_request">Project Image loading</string>
-    <string name="act__image_loading_error__btn_request">Image loading with intentional error</string>
+    <string name="app_name">دموی اندروید صدا و سیما</string>
+    <string name="act__main__btn_simple_request">دموی اتصال به سرور داخلی</string>
+    <string name="act__main__btn_json_request">حوزه انتشار</string>
+    <string name="act__main__btn_gson_request">تولید و پخش</string>
+    <string name="act__main__btn_image_loading">انتقال</string>
+    <string name="act__simple_request__btn_request">یک درخواست از سرور اینترنتی</string>
+    <string name="act__json_request__btn_request"> یک درخواست از سرور مصباح سافت</string>
+    <string name="act__gson_request__btn_request"> یک درخواست از شیرپوینت</string>
+    <string name="act__image_loading__btn_request"> عکس پروژه ها</string>
+    <string name="act__image_loading_error__btn_request">نمایش عکس پروژه ها با خطای داخلی</string>
     <string name="act__ext_http_client">Newer external HttpClient (4.2.x)</string>
     <string name="act__main__btn_cookies">Using cookies</string>
     <string name="act__act__ss_ssl_http_client">Using self-signed SSL cert</string>
@@ -28,6 +28,6 @@
     <string name="act__params__num1_hint">Decimal 1</string>
     <string name="act__params__num2_hint">Decimal 2</string>
     <string name="act__params__sum">Sum: %s</string>
-    <string name="act__main__btn_params">IRIB GET and POST parameters</string>
+    <string name="act__main__btn_params">ارسال و دریافت اطلاعات صدا و سیما</string>
     <string name="act__main__btn_network_list_view">Dynamic ListView with NetworkImageView</string>
 </resources>

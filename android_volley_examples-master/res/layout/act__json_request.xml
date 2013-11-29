@@ -10,11 +10,23 @@
         android:layout_height="wrap_content"
         android:text="@string/act__json_request__btn_request" >
     </Button>
-
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:orientation="vertical"  >
+        <TextView
+                android:id="@+id/tv_adad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
     <TextView
-        android:id="@+id/tv_result"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-         />
-
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <TextView
+            android:id="@+id/tv_result2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
 </LinearLayout>

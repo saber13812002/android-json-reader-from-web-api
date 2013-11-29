@@ -5,6 +5,7 @@
       <profile>
         <option name="device" value="2.7in QVGA" />
         <option name="deviceConfiguration" value="Portrait" />
+        <option name="localeLanguage" value="ar" />
         <option name="targetHashString" value="android-10" />
         <option name="theme" value="AppTheme" />
       </profile>
@@ -27,7 +28,23 @@
     <ignored path="android_volley_examples-master.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/NetworkDispatcher.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385027051003" ignored="false" />
-    <file path="/Act_JsonRequest.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385036375942" ignored="false" />
+    <file path="/Act_JsonRequest.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385608535408" ignored="false" />
+    <file path="/fragment.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385523333337" ignored="false" />
+    <file path="/strings.xml" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385610226284" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/app/App_VolleyExamples.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835773" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/toolbox/SslHttpClient.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835773" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/toolbox/SslSocketFactory.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835773" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/toolbox/SsX509TrustManager.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835773" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/toolbox/BitmapLruCache.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835774" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/misc/PicasaEntry.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835774" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/misc/PicasaArrayAdapter.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835774" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/toolbox/ExtHttpClientStack.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835774" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/toolbox/FakeImageCache.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835774" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/misc/MyClass.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835774" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/toolbox/GsonRequest.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835774" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/github/irib_examples/app/MyVolley.java" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385524835774" ignored="false" />
+    <file path="/act__json_request.xml" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385527767457" ignored="false" />
+    <file path="/act__main.xml" changelist="eddb7a39-303a-43d4-b6c4-cfb0c31f7c09" time="1385528893692" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +59,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/github/irib_examples/Act_JsonRequest.java" line="109" class="com.github.irib_examples.Act_JsonRequest$2" package="com.github.irib_examples">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -76,23 +110,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/github/volley_examples/Act_JsonRequest.java" line="82" class="com.github.volley_examples.Act_JsonRequest$2" package="com.github.volley_examples">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -101,123 +118,37 @@
     <favorites_list name="android_volley_examples-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="act__ss_ssl_http_client.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/act__ss_ssl_http_client.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="12" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Act_NewHttpClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/volley_examples/Act_NewHttpClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="30" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="act__main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/act__main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="49" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Act_JsonRequest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/github/volley_examples/Act_JsonRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="62" selection-start="2994" selection-end="2994" vertical-scroll-proportion="1.3455598">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ids.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/ids.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetworkDispatcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/volley/NetworkDispatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="60" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HurlStack.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/volley/toolbox/HurlStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="48" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\staba\Documents\GitHub\mesbahsoft\mesbahsoft.dat" />
+    <option name="KEY_ALIAS" value="mesbahsoft.com" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/act__gson_request.xml" />
-        <option value="$PROJECT_DIR$/res/layout/act__json_request.xml" />
         <option value="$PROJECT_DIR$/res/layout/act__new_http_client.xml" />
         <option value="$PROJECT_DIR$/res/layout/act__params.xml" />
         <option value="$PROJECT_DIR$/res/layout/act__simple_request.xml" />
         <option value="$PROJECT_DIR$/res/layout/act__ss_ssl_http_client.xml" />
         <option value="$PROJECT_DIR$/src/com/android/volley/NetworkDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/com/github/volley_examples/Act_Main.java" />
         <option value="$PROJECT_DIR$/src/com/github/volley_examples/Act_JsonRequest.java" />
+        <option value="$PROJECT_DIR$/res/layout/act__json_request.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-ir/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-ar/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/act__main.xml" />
+        <option value="$PROJECT_DIR$/res/values-fa/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/github/irib_examples/Act_Main.java" />
+        <option value="$PROJECT_DIR$/src/com/github/irib_examples/Act_JsonRequest.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -293,7 +224,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,32 +231,6 @@
               <option name="myItemId" value="android_volley_examples-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 2.3.3 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android_volley_examples-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 2.3.3 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -356,7 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="volley_examples" />
+              <option name="myItemId" value="irib_examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,7 +296,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="values-fa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,7 +314,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="raw" />
+              <option name="myItemId" value="values-ar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,9 +368,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="volley_examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_volley_examples-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,17 +443,28 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="ExportedApkPath" value="C:\Users\staba\Documents\GitHub\android_volley_examples-master\android-json-reader-from-web-api\android_volley_examples-master\android_volley_examples-master.apk" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor.preferences.import" />
+    <property name="ExportedModule" value="android_volley_examples-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mesbahsoft/mesbahsoft.dat" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\staba\Documents\GitHub\android_volley_examples-master\android-json-reader-from-web-api\android_volley_examples-master\asset\font" />
+      <recent name="C:\Users\staba\Documents\GitHub\android_volley_examples-master\android-json-reader-from-web-api\android_volley_examples-master\res" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.android_volley_examples-master">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -599,7 +593,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
+      <option name="PREFERRED_AVD" value="avd" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -651,7 +645,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.6710214" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39904988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -666,9 +662,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24918567" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6710214" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -733,118 +727,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/android/volley/toolbox/HurlStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="48" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/act__gson_request.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="663" selection-end="663" vertical-scroll-proportion="-13.6">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/act__json_request.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="601" selection-end="601" vertical-scroll-proportion="-11.56">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/act__new_http_client.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="733" selection-end="733" vertical-scroll-proportion="-14.28">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/act__params.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-24.48">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/act__simple_request.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="733" selection-end="733" vertical-scroll-proportion="-14.28">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/act__ss_ssl_http_client.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/volley/NetworkDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="60" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/volley/toolbox/HurlStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="48" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/volley_examples/Act_NewHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="30" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/act__main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="49" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/ids.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -852,16 +734,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/android/volley/toolbox/HurlStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="48" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/act__ss_ssl_http_client.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="12" selection-start="723" selection-end="723" vertical-scroll-proportion="0.7777778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-fa/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/volley_examples/Act_JsonRequest.java">
+    <entry file="file://$PROJECT_DIR$/res/values-fa/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="62" selection-start="2994" selection-end="2994" vertical-scroll-proportion="1.3455598">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/volley/NetworkDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="60" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.97773653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/act__cookie.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ar/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/act__json_request.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="40" selection-start="731" selection-end="731" vertical-scroll-proportion="0.54291415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ar/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="196" selection-end="395" vertical-scroll-proportion="0.15769945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-fa/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="63" selection-start="395" selection-end="395" vertical-scroll-proportion="0.22077923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/irib_examples/Act_Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="29" selection-start="2787" selection-end="2787" vertical-scroll-proportion="1.6085343">
+          <folding>
+            <element signature="e#2588#2820#0" expanded="true" />
+            <element signature="e#2809#2810#0" expanded="true" />
+            <element signature="e#2989#3215#0" expanded="true" />
+            <element signature="e#3204#3205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/act__main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="39" selection-start="1484" selection-end="1484" vertical-scroll-proportion="1.4590819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28" selection-start="206" selection-end="206" vertical-scroll-proportion="0.12615955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/irib_examples/Act_JsonRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="37" selection-start="2052" selection-end="2052" vertical-scroll-proportion="-1.2946768">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
